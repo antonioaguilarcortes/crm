@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('activity');
+    return view('home');
 });
 
 
-// Route::get('/directory', function(){
-// 	return view('directory')
-// });
+Route::get('/directory', function(){
+	return view('directory');
+});
