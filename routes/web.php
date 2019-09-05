@@ -12,4 +12,4 @@ Route::get('/activity', function(){
 	return view('activity');
 });
 
-Route::redirect("/here","/welcome");
+Route::redirect("/here","/");
