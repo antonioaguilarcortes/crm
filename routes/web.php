@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('activity');
 });
+
+
+// Route::get('/directory', function(){
+// 	return view('directory')
+// });
