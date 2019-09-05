@@ -5,6 +5,5 @@
 </head>
 <body>
 		<h1>directory</h1>
-		<?php print_r($directory); ?>
 </body>
 </html>

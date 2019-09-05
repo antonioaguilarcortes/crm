@@ -1,20 +1,15 @@
 <?php
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
-
 
 Route::get('/directory', function(){
 	return view('directory');
 });
 
 Route::get('/activity', function(){
-	return view('activity', ["activity"=>"Dato"]);
+	return view('activity');
 });
 
-// Route::get('/directory/{id}', function($id){
-// 	return view('directory', ["directory"=>$id]);
-// });
-
-Route::redirect("/here","/home");
+Route::redirect("/here","/welcome");
